@@ -56,9 +56,7 @@ class Button extends \Magento\Framework\View\Element\Template implements \Magent
     }
 
     /**
-     * Generate Hash for the PayPal Button
-     *
-     * @return null|HtML
+     * @inheritDoc
      */
     protected function _beforeToHtml()
     {

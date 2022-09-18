@@ -20,8 +20,8 @@ use net\authorize\api\contract\v1\CreateTransactionResponse;
 class InitializeCommand implements \Magento\Payment\Gateway\CommandInterface
 {
 
-    const KEY_INIT_TRANSACTION_ID = 'initTransId';
-    const KEY_PAYER_ID = 'payerId';
+    public const KEY_INIT_TRANSACTION_ID = 'initTransId';
+    public const KEY_PAYER_ID = 'payerId';
 
     /**
      * @var TransferFactoryInterface

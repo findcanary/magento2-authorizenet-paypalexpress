@@ -12,9 +12,9 @@ use AuthorizeNet\PayPalExpress\Gateway\Command\InitializeCommand;
 class Checkout
 {
 
-    const TOKEN_DATA_CACHE_KEY_PREFIX = 'ec_token_data_';
-    const KEY_HAS_DATA_FETCHED = 'ec_data_fetched';
-    const KEY_PAYER_EMAIL = 'payerEmail';
+    public const TOKEN_DATA_CACHE_KEY_PREFIX = 'ec_token_data_';
+    public const KEY_HAS_DATA_FETCHED = 'ec_data_fetched';
+    public const KEY_PAYER_EMAIL = 'payerEmail';
 
     /**
      * @var $checkoutSession

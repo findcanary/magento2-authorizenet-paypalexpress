@@ -10,7 +10,7 @@ namespace AuthorizeNet\PayPalExpress\Plugin;
 class ConfiguratorPlugin
 {
 
-    const PAYMENT_METHOD = 'Paypal';
+    public const PAYMENT_METHOD = 'Paypal';
 
     /**
      * @var \AuthorizeNet\PayPalExpress\Gateway\Config\Config
